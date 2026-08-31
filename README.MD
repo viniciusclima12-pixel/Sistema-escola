@@ -117,3 +117,6 @@ R:
 - Nome de cada curso deve ser único
 - Impedir exclusão de cursos que tenham alunos matriculados
 - Impedir exclusão de alunos que estejam matriculados em 1 ou mais cursos
+
+## DIAGRAMA
+![Bussiness Model Canvas](images/DIAGRAMA.png)
