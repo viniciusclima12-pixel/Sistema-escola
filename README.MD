@@ -66,21 +66,16 @@ R:
 - Excluir os cursos
 - Excluir os funcionarios
 - Excluir os matriculas
+- Login de usuários
+- Buscar aluno pelo nome
+- Buscar açuno pelo CPF
+- Buscar funcionario pelo nome
+- Buscar funcionario pelo CPF
+- Mostrar os cursos ek que cada aluno está matriculado
+- Mostrar os alunos que estão matriculados em cada curso
 
-- buscar alunos
-- buscar cursos
-- buscar funcionarios
-- buscar matriculas
-- buscar alunos matriculados
-- fitrar pelo nome
-- fitrar pelo e-mail
-- fitrar pelo telefone
-- fitrar pelo CPF
-- fitrar pelo data de nascimento
-- fitrar pelo endereço
-- fitrar pelo cargo
-- fitrar pelo matricula
-- fitrar pelo curso 
+
+
 
 
   2. Requisitos Não-Funcionais:
@@ -89,6 +84,8 @@ R:
 - Interface reponsiva e adaptativa e diversas resoluções de tela e dispositivos diferentes, como computadires, celular e tablet
 - Interface deve ser compatível com os principais navegadores web
 - Criptografar as senhas antes de salvá-las no banco de dados
+- Disponpivel durante todo o hórario de funcionamento da intituição
+- Restringir acesso pelo tipo de usuário
 
 - Segurança 
 
@@ -112,3 +109,11 @@ R:
 - Verificar se o usuário não está logado
 
 
+## REGRAS DE NEGOCIO
+- CPF de cada aluno deve ser único
+- CPF de cada funcionario deve ser único
+- Email de cada funcionario deve ser único
+- A matricula de cada aluno deve ser única
+- Nome de cada curso deve ser único
+- Impedir exclusão de cursos que tenham alunos matriculados
+- Impedir exclusão de alunos que estejam matriculados em 1 ou mais cursos
