@@ -30,7 +30,6 @@
 ## MODELO DE NEGÓCIO:
   ![Business Model Canvas](images/business-model-canvas.png)
 
-
 ## REQUISITOS:
 1. Requisitos Funcionais:
   - Cadastrar alunos
@@ -50,9 +49,30 @@
   - Excluir os funcionários
   - Excluir os cursos
   - Excluir as matrículas
+  - Login de usuários
+  - Buscar aluno pelo nome
+  - Buscar aluno pelo CPF
+  - Buscar funcionário pelo nome
+  - Buscar funcionário pelo CPF
+  - Mostrar os cursos em que cada aluno está matriculado
+  - Mostrar os alunos que estão matriculados em cada curso
 2. Requisitos Não Funcionais:
   - Autenticação
   - Interface com navegação padronizada e consistente entre as telas
   - Interface responsiva e adaptativa a diversas resoluções de tela e dispositivos diferentes, como computador, celular e tablet
   - Interface deve ser compatível com os principais navegadores web
   - Criptografar as senhas antes de salvá-las no banco de dados
+  - Disponível durante todo o horário de funcionamento da instituição
+  - Restringir acesso pelo tipo de usuário
+  
+## REGRAS DE NEGÓCIO:
+- CPF de cada aluno deve ser único
+- CPF de cada funcionário deve ser único
+- Email de cada funcionário deve ser único
+- A matrícula de cada aluno deve ser única
+- Nome de cada curso deve ser único
+- Impedir exclusão de cursos que tenham alunos matriculados
+- Impedir exclusão de alunos que estejam matriculados em 1 ou mais cursos
+
+## CASOS DE USO:
+  ![Casos de uso](images/diagrama-casos-de-uso.png)
