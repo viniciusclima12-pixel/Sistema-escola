@@ -79,3 +79,7 @@
 
 ## CLASSES:
 ![classes](images/diagrama-classes.png)
+
+## SEQUENCIAS:
+- Login:
+![Login](images/diagrama-sequencia-login.png)
